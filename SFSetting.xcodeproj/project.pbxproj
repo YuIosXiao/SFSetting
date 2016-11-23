@@ -8,12 +8,55 @@
 
 /* Begin PBXBuildFile section */
 		69BF6BDE1DE56C28000ABF09 /* SFSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 69BF6BDC1DE56C28000ABF09 /* SFSetting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69BF6BED1DE56C49000ABF09 /* SFSettingiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 69BF6BEB1DE56C49000ABF09 /* SFSettingiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69BF6BF31DE56C88000ABF09 /* SFSettingModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BF6BF21DE56C88000ABF09 /* SFSettingModule.swift */; };
+		69BF6BF41DE56C88000ABF09 /* SFSettingModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BF6BF21DE56C88000ABF09 /* SFSettingModule.swift */; };
+		69BF6BF61DE56D79000ABF09 /* AxLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69BF6BF51DE56D79000ABF09 /* AxLogger.framework */; };
+		69BF6BF71DE56D79000ABF09 /* AxLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69BF6BF51DE56D79000ABF09 /* AxLogger.framework */; };
+		69BF6BF91DE56D7F000ABF09 /* DarwinCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69BF6BF81DE56D7F000ABF09 /* DarwinCore.framework */; };
+		69BF6BFA1DE56D7F000ABF09 /* DarwinCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69BF6BF81DE56D7F000ABF09 /* DarwinCore.framework */; };
+		69BF6BFC1DE56D88000ABF09 /* MMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69BF6BFB1DE56D88000ABF09 /* MMDB.framework */; };
+		69BF6BFD1DE56D88000ABF09 /* MMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69BF6BFB1DE56D88000ABF09 /* MMDB.framework */; };
+		69BF6BFF1DE56D8F000ABF09 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69BF6BFE1DE56D8F000ABF09 /* SwiftyJSON.framework */; };
+		69BF6C001DE56D8F000ABF09 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69BF6BFE1DE56D8F000ABF09 /* SwiftyJSON.framework */; };
+		69BF6C091DE56EB4000ABF09 /* SFRuler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BF6C071DE56EB4000ABF09 /* SFRuler.swift */; };
+		69BF6C0A1DE56EB4000ABF09 /* SFRuler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BF6C071DE56EB4000ABF09 /* SFRuler.swift */; };
+		69BF6C0B1DE56EB4000ABF09 /* SFRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BF6C081DE56EB4000ABF09 /* SFRule.swift */; };
+		69BF6C0C1DE56EB4000ABF09 /* SFRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BF6C081DE56EB4000ABF09 /* SFRule.swift */; };
+		69BF6C0E1DE56ECC000ABF09 /* DNSCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BF6C0D1DE56ECC000ABF09 /* DNSCache.swift */; };
+		69BF6C0F1DE56ECC000ABF09 /* DNSCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BF6C0D1DE56ECC000ABF09 /* DNSCache.swift */; };
+		69BF6C111DE56EEB000ABF09 /* SFRuleResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BF6C101DE56EEB000ABF09 /* SFRuleResult.swift */; };
+		69BF6C121DE56EEB000ABF09 /* SFRuleResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BF6C101DE56EEB000ABF09 /* SFRuleResult.swift */; };
+		69BF6C141DE56F32000ABF09 /* SFConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BF6C131DE56F32000ABF09 /* SFConfig.swift */; };
+		69BF6C151DE56F32000ABF09 /* SFConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BF6C131DE56F32000ABF09 /* SFConfig.swift */; };
+		69BF6C171DE56F55000ABF09 /* ProxyGroupSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BF6C161DE56F55000ABF09 /* ProxyGroupSettings.swift */; };
+		69BF6C181DE56F55000ABF09 /* ProxyGroupSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BF6C161DE56F55000ABF09 /* ProxyGroupSettings.swift */; };
+		69BF6C1A1DE56F74000ABF09 /* General.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BF6C191DE56F74000ABF09 /* General.swift */; };
+		69BF6C1B1DE56F74000ABF09 /* General.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BF6C191DE56F74000ABF09 /* General.swift */; };
+		69BF6C1D1DE56FB5000ABF09 /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BF6C1C1DE56FB5000ABF09 /* System.swift */; };
+		69BF6C1E1DE56FB5000ABF09 /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BF6C1C1DE56FB5000ABF09 /* System.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		69BF6BD91DE56C28000ABF09 /* SFSetting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SFSetting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69BF6BDC1DE56C28000ABF09 /* SFSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFSetting.h; sourceTree = "<group>"; };
 		69BF6BDD1DE56C28000ABF09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69BF6BE91DE56C49000ABF09 /* SFSettingiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SFSettingiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69BF6BEB1DE56C49000ABF09 /* SFSettingiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFSettingiOS.h; sourceTree = "<group>"; };
+		69BF6BEC1DE56C49000ABF09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69BF6BF21DE56C88000ABF09 /* SFSettingModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSettingModule.swift; sourceTree = "<group>"; };
+		69BF6BF51DE56D79000ABF09 /* AxLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AxLogger.framework; path = Carthage/Build/Mac/AxLogger.framework; sourceTree = "<group>"; };
+		69BF6BF81DE56D7F000ABF09 /* DarwinCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DarwinCore.framework; path = Carthage/Build/Mac/DarwinCore.framework; sourceTree = "<group>"; };
+		69BF6BFB1DE56D88000ABF09 /* MMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MMDB.framework; path = Carthage/Build/Mac/MMDB.framework; sourceTree = "<group>"; };
+		69BF6BFE1DE56D8F000ABF09 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/Mac/SwiftyJSON.framework; sourceTree = "<group>"; };
+		69BF6C071DE56EB4000ABF09 /* SFRuler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFRuler.swift; sourceTree = "<group>"; };
+		69BF6C081DE56EB4000ABF09 /* SFRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFRule.swift; sourceTree = "<group>"; };
+		69BF6C0D1DE56ECC000ABF09 /* DNSCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNSCache.swift; sourceTree = "<group>"; };
+		69BF6C101DE56EEB000ABF09 /* SFRuleResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFRuleResult.swift; sourceTree = "<group>"; };
+		69BF6C131DE56F32000ABF09 /* SFConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFConfig.swift; sourceTree = "<group>"; };
+		69BF6C161DE56F55000ABF09 /* ProxyGroupSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProxyGroupSettings.swift; sourceTree = "<group>"; };
+		69BF6C191DE56F74000ABF09 /* General.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = General.swift; sourceTree = "<group>"; };
+		69BF6C1C1DE56FB5000ABF09 /* System.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = System.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +64,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69BF6BFF1DE56D8F000ABF09 /* SwiftyJSON.framework in Frameworks */,
+				69BF6BF91DE56D7F000ABF09 /* DarwinCore.framework in Frameworks */,
+				69BF6BFC1DE56D88000ABF09 /* MMDB.framework in Frameworks */,
+				69BF6BF61DE56D79000ABF09 /* AxLogger.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69BF6BE51DE56C49000ABF09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69BF6C001DE56D8F000ABF09 /* SwiftyJSON.framework in Frameworks */,
+				69BF6BFA1DE56D7F000ABF09 /* DarwinCore.framework in Frameworks */,
+				69BF6BFD1DE56D88000ABF09 /* MMDB.framework in Frameworks */,
+				69BF6BF71DE56D79000ABF09 /* AxLogger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30,7 +88,13 @@
 		69BF6BCF1DE56C28000ABF09 = {
 			isa = PBXGroup;
 			children = (
+				69BF6BFE1DE56D8F000ABF09 /* SwiftyJSON.framework */,
+				69BF6BFB1DE56D88000ABF09 /* MMDB.framework */,
+				69BF6BF81DE56D7F000ABF09 /* DarwinCore.framework */,
+				69BF6BF51DE56D79000ABF09 /* AxLogger.framework */,
+				69BF6BF11DE56C70000ABF09 /* src */,
 				69BF6BDB1DE56C28000ABF09 /* SFSetting */,
+				69BF6BEA1DE56C49000ABF09 /* SFSettingiOS */,
 				69BF6BDA1DE56C28000ABF09 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				69BF6BD91DE56C28000ABF09 /* SFSetting.framework */,
+				69BF6BE91DE56C49000ABF09 /* SFSettingiOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,6 +117,31 @@
 			path = SFSetting;
 			sourceTree = "<group>";
 		};
+		69BF6BEA1DE56C49000ABF09 /* SFSettingiOS */ = {
+			isa = PBXGroup;
+			children = (
+				69BF6BEB1DE56C49000ABF09 /* SFSettingiOS.h */,
+				69BF6BEC1DE56C49000ABF09 /* Info.plist */,
+			);
+			path = SFSettingiOS;
+			sourceTree = "<group>";
+		};
+		69BF6BF11DE56C70000ABF09 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				69BF6C191DE56F74000ABF09 /* General.swift */,
+				69BF6C161DE56F55000ABF09 /* ProxyGroupSettings.swift */,
+				69BF6C131DE56F32000ABF09 /* SFConfig.swift */,
+				69BF6C101DE56EEB000ABF09 /* SFRuleResult.swift */,
+				69BF6C0D1DE56ECC000ABF09 /* DNSCache.swift */,
+				69BF6BF21DE56C88000ABF09 /* SFSettingModule.swift */,
+				69BF6C071DE56EB4000ABF09 /* SFRuler.swift */,
+				69BF6C081DE56EB4000ABF09 /* SFRule.swift */,
+				69BF6C1C1DE56FB5000ABF09 /* System.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -60,6 +150,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				69BF6BDE1DE56C28000ABF09 /* SFSetting.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69BF6BE61DE56C49000ABF09 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69BF6BED1DE56C49000ABF09 /* SFSettingiOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +182,24 @@
 			productReference = 69BF6BD91DE56C28000ABF09 /* SFSetting.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		69BF6BE81DE56C49000ABF09 /* SFSettingiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69BF6BEE1DE56C49000ABF09 /* Build configuration list for PBXNativeTarget "SFSettingiOS" */;
+			buildPhases = (
+				69BF6BE41DE56C49000ABF09 /* Sources */,
+				69BF6BE51DE56C49000ABF09 /* Frameworks */,
+				69BF6BE61DE56C49000ABF09 /* Headers */,
+				69BF6BE71DE56C49000ABF09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFSettingiOS;
+			productName = SFSettingiOS;
+			productReference = 69BF6BE91DE56C49000ABF09 /* SFSettingiOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +212,13 @@
 					69BF6BD81DE56C28000ABF09 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 745WQDK4L7;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					69BF6BE81DE56C49000ABF09 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 745WQDK4L7;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -113,12 +236,20 @@
 			projectRoot = "";
 			targets = (
 				69BF6BD81DE56C28000ABF09 /* SFSetting */,
+				69BF6BE81DE56C49000ABF09 /* SFSettingiOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		69BF6BD71DE56C28000ABF09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69BF6BE71DE56C49000ABF09 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -132,6 +263,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69BF6C0B1DE56EB4000ABF09 /* SFRule.swift in Sources */,
+				69BF6C111DE56EEB000ABF09 /* SFRuleResult.swift in Sources */,
+				69BF6C141DE56F32000ABF09 /* SFConfig.swift in Sources */,
+				69BF6BF31DE56C88000ABF09 /* SFSettingModule.swift in Sources */,
+				69BF6C0E1DE56ECC000ABF09 /* DNSCache.swift in Sources */,
+				69BF6C091DE56EB4000ABF09 /* SFRuler.swift in Sources */,
+				69BF6C1A1DE56F74000ABF09 /* General.swift in Sources */,
+				69BF6C1D1DE56FB5000ABF09 /* System.swift in Sources */,
+				69BF6C171DE56F55000ABF09 /* ProxyGroupSettings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69BF6BE41DE56C49000ABF09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69BF6C0C1DE56EB4000ABF09 /* SFRule.swift in Sources */,
+				69BF6C121DE56EEB000ABF09 /* SFRuleResult.swift in Sources */,
+				69BF6C151DE56F32000ABF09 /* SFConfig.swift in Sources */,
+				69BF6BF41DE56C88000ABF09 /* SFSettingModule.swift in Sources */,
+				69BF6C0F1DE56ECC000ABF09 /* DNSCache.swift in Sources */,
+				69BF6C0A1DE56EB4000ABF09 /* SFRuler.swift in Sources */,
+				69BF6C1B1DE56F74000ABF09 /* General.swift in Sources */,
+				69BF6C1E1DE56FB5000ABF09 /* System.swift in Sources */,
+				69BF6C181DE56F55000ABF09 /* ProxyGroupSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +393,7 @@
 		69BF6BE21DE56C28000ABF09 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -244,6 +401,37 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SFSetting/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yarshure.SFSetting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		69BF6BE31DE56C28000ABF09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 745WQDK4L7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = SFSetting/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -253,26 +441,63 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
-			name = Debug;
+			name = Release;
 		};
-		69BF6BE31DE56C28000ABF09 /* Release */ = {
+		69BF6BEF1DE56C49000ABF09 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 745WQDK4L7;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = SFSetting/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = SFSettingiOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yarshure.SFSetting;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yarshure.SFSettingiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69BF6BF01DE56C49000ABF09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 745WQDK4L7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = SFSettingiOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yarshure.SFSettingiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -293,6 +518,14 @@
 			buildConfigurations = (
 				69BF6BE21DE56C28000ABF09 /* Debug */,
 				69BF6BE31DE56C28000ABF09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69BF6BEE1DE56C49000ABF09 /* Build configuration list for PBXNativeTarget "SFSettingiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69BF6BEF1DE56C49000ABF09 /* Debug */,
+				69BF6BF01DE56C49000ABF09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
